@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>象形柱状图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="8b0c655aefd74b52a861e58ddcbc6ec5" class="chart-container" style="width:1600px; height:600px;"></div>
+    <script>
+        var chart_8b0c655aefd74b52a861e58ddcbc6ec5 = echarts.init(
+            document.getElementById('8b0c655aefd74b52a861e58ddcbc6ec5'), 'white', {renderer: 'canvas'});
+        var option_8b0c655aefd74b52a861e58ddcbc6ec5 = {
+    "backgroundColor": "#7FFFAA",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pictorialBar",
+            "symbol": "path://M29.902,23.275c1.86,0,3.368-1.506,3.368-3.365c0-1.859-1.508-3.365-3.368-3.365 c-1.857,0-3.365,1.506-3.365,3.365C26.537,21.769,28.045,23.275,29.902,23.275z M36.867,30.74c-1.666-0.467-3.799-1.6-4.732-4.199 c-0.932-2.6-3.131-2.998-4.797-2.998s-7.098,3.894-7.098,3.894c-1.133,1.001-2.1,6.502-0.967,6.769 c1.133,0.269,1.266-1.533,1.934-3.599c0.666-2.065,3.797-3.466,3.797-3.466s0.201,2.467-0.398,3.866 c-0.599,1.399-1.133,2.866-1.467,6.198s-1.6,3.665-3.799,6.266c-2.199,2.598-0.6,3.797,0.398,3.664 c1.002-0.133,5.865-5.598,6.398-6.998c0.533-1.397,0.668-3.732,0.668-3.732s0,0,2.199,1.867c2.199,1.865,2.332,4.6,2.998,7.73 s2.332,0.934,2.332-0.467c0-1.401,0.269-5.465-1-7.064c-1.265-1.6-3.73-3.465-3.73-5.265s1.199-3.732,1.199-3.732 c0.332,1.667,3.335,3.065,5.599,3.399C38.668,33.206,38.533,31.207,36.867,30.74z",
+            "symbolSize": 18,
+            "symbolOffset": [
+                0,
+                0
+            ],
+            "symbolRepeat": "fixed",
+            "symbolClip": true,
+            "name": "10\u4e07\u4eba",
+            "data": [
+                68.27,
+                33.12,
+                47.22,
+                35.66,
+                36.38,
+                23.77,
+                53.65,
+                23.71,
+                30.67,
+                22.69,
+                35.77,
+                49.91,
+                19.61,
+                21.28,
+                26.61
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "10\u4e07\u4eba"
+            ],
+            "selected": {
+                "10\u4e07\u4eba": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": false,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 0,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "axisTick": {
+                "show": false,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u9b3c\u706d\u4e4b\u5203",
+                "\u76fe\u4e4b\u52c7\u8005\u6210\u540d\u5f55",
+                "\u8f89\u591c\u5927\u5c0f\u59d0\u60f3\u8ba9\u6211\u544a\u767d~\u5929\u624d\u4eec\u7684\u604b\u7231\u5934\u8111\u6218~",
+                "\u591a\u7f57\u7f57",
+                "\u8fd9\u4e2a\u52c7\u8005\u660e\u660e\u8d85\u5f3a\u5374\u8fc7\u5206\u614e\u91cd",
+                "\uff24\uff52\uff0e\uff33\uff34\uff2f\uff2e\uff25 \u77f3\u7eaa\u5143",
+                "\u6211\u7684\u82f1\u96c4\u5b66\u9662 \u7b2c\u56db\u5b63",
+                "\u5e73\u51e1\u804c\u4e1a\u9020\u5c31\u4e16\u754c\u6700\u5f3a",
+                "\u4e94\u7b49\u5206\u7684\u65b0\u5a18",
+                "\u8def\u4eba\u8d85\u80fd100 II(\u7075\u80fd\u767e\u5206\u767e \u7b2c\u4e8c\u5b63)",
+                "\u547d\u8fd0-\u51a0\u4f4d\u6307\u5b9a \u7edd\u5bf9\u9b54\u517d\u6218\u7ebf \u5df4\u6bd4\u4f26\u5c3c\u4e9a",
+                "\u5200\u5251\u795e\u57df \u7231\u4e3d\u4e1d\u7bc7 \u5f02\u754c\u6218\u4e89",
+                "\u8d24\u8005\u4e4b\u5b59",
+                "CAROLE & TUESDAY",
+                "\u52a8\u7269\u72c2\u60f3\u66f2 / BEASTARS"
+            ]
+        }
+    ],
+    "title": [
+        {
+            "text": "\u8ffd\u756a\u4eba\u6570",
+            "left": "5%",
+            "top": "4%",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": {
+        "show": true,
+        "type": "inside",
+        "realtime": true,
+        "start": 20,
+        "end": 80,
+        "orient": "horizontal",
+        "zoomLock": false
+    }
+};
+        chart_8b0c655aefd74b52a861e58ddcbc6ec5.setOption(option_8b0c655aefd74b52a861e58ddcbc6ec5);
+    </script>
+</body>
+</html>
